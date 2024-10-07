@@ -1,0 +1,49 @@
+/* HOME */
+
+.header {
+  margin-top: 20px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 5vh;
+  text-decoration: none;
+  color: #2c40ff;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 2vh;
+}
+
+.header a {
+  color: #2c40ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.body {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.phrase {
+  font-size: 5vh;
+}
+.msgContainer {
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 600px) {
+  .header {
+    margin-left: 5vw;
+  }
+}
